@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body >
+    <h1>Login Form</h1>
+
+    <form action="backend.php" >
+
+        <div class="logo">
+            <img src="geu.jpg" alt="geu" srcset="">
+        </div>
+        
+        <div class="name">
+            <label for="Name">Name</label>
+            <input type="text" id="Name">
+        </div> 
+
+        <div class="student-id">
+            <label for="Student ID">Student-ID</label>
+            <input type="number" id="Student ID">
+        </div>
+        
+        <div class="gender">
+            Gender:
+            Male<input type="radio" name="gender" id="">
+            Female<input type="radio" name="gender" id="">
+        </div>
+
+        
+        <div class="email">
+            <label for="Email">Email</label>
+            <input type="email" id="Email" >
+        </div>
+
+        <div class="password">
+            <label for="password">Password</label>
+            <input type="password" id="password" >
+        </div>
+        
+        <div class="date">
+            <label for="date">Date Of Birth</label>
+            <input type="date" id="date">
+        </div>
+
+        <div class="course">
+            <label for="course">Select-Course :</label>
+            <select id="Course">
+            <option value="Btech">Btech</option>
+            <option value="Bca">Bca</option>
+            <option value="Mca">Mca</option>
+            <option value="Bba">Bba</option>
+            <option value="Bcom">Bcom</option>
+            </select>
+        </div>
+        
+        <!-- <div>
+            are you eligible:<input type="checkbox" name="are u eligible">
+        </div> -->
+        
+        <div>
+          WRITE ABOT YOURSELF <br> <textarea name="mytext" id="" cols="30" rows="10"></textarea>
+        </div>
+        
+        <div>
+            <input type="submit" value="Submit Now">
+        </div>
+        
+        <div>
+            <input type="reset" value="Reset Now">
+        </div>
+        
+       
+        
+    </form>
+</body>
+</html>
